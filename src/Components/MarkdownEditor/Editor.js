@@ -72,7 +72,6 @@ function Editor() {
   const handelChange = (e) => {
     updateStorageInput(e.target.value);
   };
-
   return (
     <div>
       <Container fluid style={body}>
